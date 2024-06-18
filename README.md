@@ -1,4 +1,4 @@
-# AWS WAF Configuration Project
+# Advanced Web Application Security with AWS WAF and Terraform
 
 ## Overview
 
