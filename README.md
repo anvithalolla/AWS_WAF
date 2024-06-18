@@ -74,3 +74,23 @@ The `uri_regex.tf` and `body_regex.tf` files implement URI-based and body-based 
 
 The `waf_acl.tf` file configures the Web ACL, associating it with the defined rules. It sets the action for each rule (e.g., allow, block) and manages the overall WAF policy.
 
+## Usage
+
+1. Clone the repository to your local machine:
+   ```sh
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+2. Initialize Terraform:
+   ```sh
+   terraform init
+   ```
+3. Review and apply the Terraform configuration
+   ```sh
+   terraform apply
+   ```
+4. Confirm the apply action when prompted. Terraform will then provision the WAF resources as defined in the scripts
+
+## Conclusion
+
+This project provides a comprehensive setup for AWS WAF using Terraform to protect web applications from various attacks, including DDoS, SQL Injection, and XSS. By following the provided scripts and instructions, you can enhance the security of your AWS-hosted web applications effectively
